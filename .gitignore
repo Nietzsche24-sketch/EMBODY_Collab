@@ -16,3 +16,15 @@ __pycache__/
 *.wav
 *.srt
 *.ipynb_checkpoints/
+# EMBODY secret protection
+*.wav
+*.mp3
+*.flac
+*.npy
+*.pt
+*.json
+
+audio_assets/
+wavs/
+harvest_output/
+train_filelist.txt
