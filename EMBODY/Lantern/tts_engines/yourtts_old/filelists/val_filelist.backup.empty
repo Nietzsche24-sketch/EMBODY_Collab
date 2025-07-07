@@ -1,0 +1,4 @@
+tests/data/ljspeech/wavs/LJ001-0001.wav|This is a dummy sentence for testing.|en
+tests/data/ljspeech/wavs/LJ001-0002.wav|This is a dummy sentence for testing.|en
+tests/data/ljspeech/wavs/LJ001-0003.wav|This is a dummy sentence for testing.|en
+tests/data/ljspeech/wavs/LJ001-0004.wav|This is a dummy sentence for testing.|en

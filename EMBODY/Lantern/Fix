@@ -1,0 +1,54 @@
+# revamp_level34.py — t-SNE Diagnostic Visualizer for EMBODY Vectors
+
+import json
+import os
+import matplotlib.pyplot as plt
+from sklearn.manifold import TSNE
+
+# Load vectorized prosody data
+with open("output/revamp_level33/embody_vectors.json", "r") as f:
+    data = json.load(f)
+
+entries = data["fused_embeddings"]
+
+# Collect prosody vectors + labels
+vectors = []
+labels = []
+
+for filename, values in entries.items():
+    prosody = values.get("prosody", {})
+    vector = [
+        prosody.get("duration_sec", 0),
+        prosody.get("avg_rms", 0),
+        prosody.get("zcr", 0),
+        prosody.get("tempo_bpm", 0),
+        prosody.get("pitch_mean", 0),
+        prosody.get("pitch_std", 0)
+    ]
+    vectors.append(vector)
+    labels.append(filename)
+
+# Run t-SNE dimensionality reduction
+tsne = TSNE(n_components=2, perplexity=5, random_state=42)
+reduced = tsne.fit_transform(vectors)
+
+# Create output folder
+os.makedirs("output/revamp_level34", exist_ok=True)
+
+# Plot and annotate points
+plt.figure(figsize=(10, 6))
+for i, label in enumerate(labels):
+    x, y = reduced[i]
+    plt.scatter(x, y, alpha=0.6)
+    plt.annotate(label, (x + 0.3, y + 0.3), fontsize=8)
+
+plt.title("t-SNE Projection of Prosody Vectors")
+plt.xlabel("Component 1")
+plt.ylabel("Component 2")
+plt.grid(True)
+plt.tight_layout()
+
+# Save chart
+output_path = "output/revamp_level34/prosody_tsne_plot.png"
+plt.savefig(output_path)
+print(f"✅ Level 34 complete — t-SNE plot saved to: {output_path}")

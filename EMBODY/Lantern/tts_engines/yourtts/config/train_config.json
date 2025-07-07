@@ -1,0 +1,29 @@
+{
+  "model": "vits",
+  "output_path": "checkpoints/",
+  "datasets": [
+    {
+      "name": "EMBODY_AR",
+      "path": "dataset",
+      "formatter": "custom",
+      "meta_file_train": "metadata.csv",
+      "meta_file_eval": "metadata.csv"
+    }
+  ],
+  "use_emotion_embedding": true,
+  "model_args": {
+    "use_phonemes": false,
+    "phoneme_language": "ar"
+  },
+  "training_args": {
+    "batch_size": 16,
+    "eval_batch_size": 8,
+    "epochs": 300,
+    "save_step": 500,
+    "print_step": 50,
+    "eval_step": 250,
+    "log_model_step": 500,
+    "run_eval": false,
+    "test_delay_epochs": 2
+  }
+}

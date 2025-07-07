@@ -1,0 +1,2 @@
+wavs_gtts/clip_0000_gtts.wav|أنا حزين جدا|ar|peter|neutral
+wavs_gtts/clip_0001_gtts.wav|ما تخليش حد يجرحك|ar|peter|neutral

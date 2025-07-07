@@ -1,0 +1,23 @@
+# Ignore Python noise
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Ignore virtual environments
+venv/
+*.egg-info/
+.env
+.cache/
+*.sqlite3
+
+# Ignore big output files
+tts_engines/yourtts_full/checkpoints/
+tts_engines/yourtts_full/logs/
+*.pt
+*.pth
+*.bin
+*.dylib
+
+# Mac junk
+.DS_Store

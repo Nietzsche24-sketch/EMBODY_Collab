@@ -1,0 +1,2 @@
+wavs/clip_0000.wav|أنا حزين جدا|ar|peter|neutral
+wavs/clip_0001.wav|ما تخليش حد يجرحك|ar|peter|neutral

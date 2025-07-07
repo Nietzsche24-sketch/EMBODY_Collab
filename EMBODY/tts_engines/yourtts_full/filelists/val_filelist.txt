@@ -1,0 +1,1 @@
+tests/data/ljspeech/wavs/LJ001-0006.wav|This is a placeholder transcription.

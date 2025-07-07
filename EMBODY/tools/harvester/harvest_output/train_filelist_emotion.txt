@@ -1,0 +1,2 @@
+harvest_output/wavs/chunk001.wav||{confused} egyptian_movie|
+harvest_output/wavs/chunk000.wav||{happy} egyptian_movie|

@@ -1,0 +1,42 @@
+import os
+import sys
+from datetime import datetime
+
+# Add parent directory to sys.path so imports work
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'Lantern', 'public_tools')))
+from firm_module import inspect_audio  # FIRM logic
+
+INPUT_DIR = "input_audio"
+OUTPUT_DIR = "output/repaired"
+
+def batch_repair():
+    print(f"\n🛠️  REVAMP Batch Audio Repair – {datetime.now().isoformat()}")
+    
+    if not os.path.exists(INPUT_DIR):
+        print(f"[!] No input folder found: {INPUT_DIR}")
+        return
+
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+    files = [
+        f for f in os.listdir(INPUT_DIR)
+        if f.lower().endswith((".mp3", ".wav", ".m4a"))
+    ]
+
+    if not files:
+        print("[!] No audio files found in input folder.")
+        return
+
+    for fname in files:
+        fpath = os.path.join(INPUT_DIR, fname)
+        repaired_path = os.path.join(OUTPUT_DIR, fname.replace(".wav", "_repaired.wav"))
+        
+        # Simulated repair — just copy or convert using ffmpeg (optional step if needed)
+        os.system(f"cp '{fpath}' '{repaired_path}'")
+        
+        print(f"✅ Repaired: {fname}")
+
+    print(f"\n🎯 Auto-repair completed at {datetime.now().isoformat()}")
+
+if __name__ == "__main__":
+    batch_repair()

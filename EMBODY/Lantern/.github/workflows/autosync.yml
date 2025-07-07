@@ -1,0 +1,34 @@
+name: AutoSync to Production
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  create-pull-request:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v3
+        with:
+          ref: main
+
+      - name: Create pull request to production
+        uses: peter-evans/create-pull-request@v5
+    with:
+      token: ${{ secrets.GITHUB_TOKEN }}
+      commit-message: "🔁 Sync main to production"
+      title: "🔁 AutoSync: main → production"
+      body: |
+        This PR was automatically generated to sync changes from `main` to `production`.
+      base: production
+      branch: autosync/main-to-production
+      delete-branch: true
+      draft: false
+      merge: true
+      merge-method: squash

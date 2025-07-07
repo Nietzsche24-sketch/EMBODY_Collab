@@ -1,0 +1,306 @@
+[
+    {
+        "id": "001",
+        "language": "arabic",
+        "text": "أنا مش فاضي",
+        "emotion": "neutral",
+        "processed": true,
+        "final_path": "audio_assets/arabic/001_clean.wav"
+    },
+    {
+        "id": "002",
+        "language": "arabic",
+        "text": "ماشي، روح اعمل اللي عايزه",
+        "emotion": "resigned",
+        "processed": true,
+        "final_path": "audio_assets/arabic/002_clean.wav"
+    },
+    {
+        "id": "003",
+        "language": "arabic",
+        "text": "فين عقلك؟",
+        "emotion": "angry",
+        "processed": true,
+        "final_path": "audio_assets/arabic/003_clean.wav"
+    },
+    {
+        "id": "004",
+        "language": "arabic",
+        "text": "أنا مش ناقصة",
+        "emotion": "frustrated",
+        "processed": true,
+        "final_path": "audio_assets/arabic/004_clean.wav"
+    },
+    {
+        "id": "005",
+        "language": "arabic",
+        "text": "وإنت مالك؟",
+        "emotion": "defensive",
+        "processed": true,
+        "final_path": "audio_assets/arabic/005_clean.wav"
+    },
+    {
+        "id": "006",
+        "language": "arabic",
+        "text": "يا سلام!",
+        "emotion": "sarcastic",
+        "processed": true,
+        "final_path": "audio_assets/arabic/006_clean.wav"
+    },
+    {
+        "id": "007",
+        "language": "arabic",
+        "text": "حبيبي، ده لمصلحتك",
+        "emotion": "manipulative",
+        "processed": true,
+        "final_path": "audio_assets/arabic/007_clean.wav"
+    },
+    {
+        "id": "008",
+        "language": "arabic",
+        "text": "طب إهدا شوية، وأنا هفهمك كل حاجة",
+        "emotion": "soothing",
+        "processed": true,
+        "final_path": "audio_assets/arabic/008_clean.wav"
+    },
+    {
+        "id": "009",
+        "language": "arabic",
+        "text": "أنت ليه واخد كل حاجة على أعصابك؟",
+        "emotion": "concerned",
+        "processed": true,
+        "final_path": "audio_assets/arabic/009_clean.wav"
+    },
+    {
+        "id": "010",
+        "language": "arabic",
+        "text": "أنا بس عايزاك تهدى شوية",
+        "emotion": "soothing",
+        "processed": true,
+        "final_path": "audio_assets/arabic/010_clean.wav"
+    },
+    {
+        "id": "011",
+        "language": "arabic",
+        "text": "إنت بتهزر؟",
+        "emotion": "annoyed",
+        "processed": true,
+        "final_path": "audio_assets/arabic/011_clean.wav"
+    },
+    {
+        "id": "012",
+        "language": "arabic",
+        "text": "أنا آسف، ماكنتش أقصد",
+        "emotion": "apologetic",
+        "processed": true,
+        "final_path": "audio_assets/arabic/012_clean.wav"
+    },
+    {
+        "id": "013",
+        "language": "arabic",
+        "text": "برافو، عبقري فعلاً",
+        "emotion": "sarcastic",
+        "processed": true,
+        "final_path": "audio_assets/arabic/013_clean.wav"
+    },
+    {
+        "id": "014",
+        "language": "arabic",
+        "text": "أكيد، طبعاً",
+        "emotion": "sarcastic",
+        "processed": true,
+        "final_path": "audio_assets/arabic/014_clean.wav"
+    },
+    {
+        "id": "015",
+        "language": "arabic",
+        "text": "إيه الحلاوة دي؟",
+        "emotion": "sarcastic",
+        "processed": true,
+        "final_path": "audio_assets/arabic/015_clean.wav"
+    },
+    {
+        "id": "016",
+        "language": "arabic",
+        "text": "مش قادر أتنفس",
+        "emotion": "anxious",
+        "processed": true,
+        "final_path": "audio_assets/arabic/016_clean.wav"
+    },
+    {
+        "id": "017",
+        "language": "arabic",
+        "text": "إنت بتقول كده من الأول؟",
+        "emotion": "annoyed",
+        "processed": true,
+        "final_path": "audio_assets/arabic/017_clean.wav"
+    },
+    {
+        "id": "018",
+        "language": "arabic",
+        "text": "آه، طبعًا. إنت دايمًا معك حق!",
+        "emotion": "sarcastic",
+        "processed": true,
+        "final_path": "audio_assets/arabic/018_clean.wav"
+    },
+    {
+        "id": "019",
+        "language": "arabic",
+        "text": "ماشي، روح اعمل اللي إنت عايزه.",
+        "emotion": "dismissive",
+        "processed": true,
+        "final_path": "audio_assets/arabic/019_clean.wav"
+    },
+    {
+        "id": "020",
+        "language": "arabic",
+        "text": "أنا زهقت.",
+        "emotion": "fed_up",
+        "processed": true,
+        "final_path": "audio_assets/arabic/020_clean.wav"
+    },
+    {
+        "id": "021",
+        "language": "arabic",
+        "text": "أنا مش طايقة نفسي",
+        "emotion": "overwhelmed",
+        "processed": true,
+        "final_path": "audio_assets/arabic/021_clean.wav"
+    },
+    {
+        "id": "022",
+        "language": "arabic",
+        "text": "أنا زهقت.",
+        "emotion": "fed_up",
+        "processed": true,
+        "final_path": "audio_assets/arabic/022_clean.wav"
+    },
+    {
+        "id": "023",
+        "language": "arabic",
+        "text": "ما فيش داعي للعصبية",
+        "emotion": "calm",
+        "processed": true,
+        "final_path": "audio_assets/arabic/023_clean.wav"
+    },
+    {
+        "id": "024",
+        "language": "arabic",
+        "text": "مش قلتلك؟",
+        "emotion": "sarcastic",
+        "processed": true,
+        "final_path": "audio_assets/arabic/024_clean.wav"
+    },
+    {
+        "id": "025",
+        "language": "arabic",
+        "text": "كله بيصلح",
+        "emotion": "hopeful",
+        "processed": true,
+        "final_path": "audio_assets/arabic/025_clean.wav"
+    },
+    {
+        "id": "026",
+        "language": "arabic",
+        "text": "فين الناس اللي كانت بتحبني؟",
+        "emotion": "hurt",
+        "processed": true,
+        "final_path": "audio_assets/arabic/026_clean.wav"
+    },
+    {
+        "id": "026",
+        "language": "arabic",
+        "text": "أنا آسف، معلش",
+        "emotion": "apologetic",
+        "processed": true,
+        "final_path": "audio_assets/arabic/026_clean.wav"
+    },
+    {
+        "id": "027",
+        "language": "arabic",
+        "text": "مش قادر أكمّل",
+        "emotion": "exhausted",
+        "processed": true,
+        "final_path": "audio_assets/arabic/027_clean.wav"
+    },
+    {
+        "id": "028",
+        "language": "arabic",
+        "text": "فاكر لما كنا هناك؟",
+        "emotion": "nostalgic",
+        "processed": true,
+        "final_path": "audio_assets/arabic/028_clean.wav"
+    },
+    {
+        "id": "029",
+        "language": "arabic",
+        "text": "إنت بتحاول تغرّني؟",
+        "emotion": "teasing",
+        "processed": true,
+        "final_path": "audio_assets/arabic/029_clean.wav"
+    },
+    {
+        "id": "030",
+        "language": "arabic",
+        "text": "ما تسيبنيش لوحدي.",
+        "emotion": "pleading",
+        "processed": true,
+        "final_path": "audio_assets/arabic/030_clean.wav"
+    },
+    {
+        "id": "001",
+        "language": "arabic",
+        "text": "فينك؟",
+        "emotion": "confused",
+        "processed": true,
+        "final_path": "audio_assets/arabic/001_clean.wav"
+    },
+    {
+        "id": "002",
+        "language": "arabic",
+        "text": "إنت غريب أوي",
+        "emotion": "awkward",
+        "processed": true,
+        "final_path": "audio_assets/arabic/002_clean.wav"
+    },
+    {
+        "id": "004",
+        "language": "arabic",
+        "text": "أنا مش ناقصة",
+        "emotion": "frustrated",
+        "processed": true,
+        "final_path": "audio_assets/arabic/004_clean.wav"
+    },
+    {
+        "id": "012",
+        "language": "arabic",
+        "text": "إيه اللي جابك هنا؟",
+        "emotion": "suspicious",
+        "processed": true,
+        "final_path": "audio_assets/arabic/012_clean.wav"
+    },
+    {
+        "id": "018",
+        "language": "arabic",
+        "text": "فينكم يا عالم؟",
+        "emotion": "overwhelmed",
+        "processed": true,
+        "final_path": "audio_assets/arabic/018_clean.wav"
+    },
+    {
+        "id": "003",
+        "language": "arabic",
+        "text": "فين عقلك؟",
+        "emotion": "angry",
+        "processed": true,
+        "final_path": "audio_assets/arabic/003_clean.wav"
+    },
+    {
+        "id": "003",
+        "language": "arabic",
+        "text": "فين عقلك؟",
+        "emotion": "angry",
+        "processed": true,
+        "final_path": "audio_assets/arabic/003_clean.wav"
+    }
+]

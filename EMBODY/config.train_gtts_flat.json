@@ -1,0 +1,25 @@
+{
+  "formatter": "lambda x: x",
+  "dataset_name": "arabic_emotion",
+  "path": "tts_engines/yourtts_full/wavs",
+  "meta_file_train": "tts_engines/yourtts_full/train_filelist.txt",
+  "output_path": "tts_engines/yourtts_full/outputs/",
+  "run_name": "arabic_run_1",
+  "model": "vits",
+  "batch_size": 32,
+  "eval_batch_size": 16,
+  "epochs": 1000,
+  "save_checkpoints": true,
+  "save_n_checkpoints": 5,
+  "save_step": 500,
+  "run_eval": true,
+  "mixed_precision": false,
+  "lr": 0.001,
+  "datasets": [
+    {
+      "name": "arabic_emotion",
+      "path": "tts_engines/yourtts_full/wavs",
+      "meta_file_train": "tts_engines/yourtts_full/train_filelist.txt"
+    }
+  ]
+}

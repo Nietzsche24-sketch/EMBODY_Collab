@@ -1,0 +1,23 @@
+{
+  "folders": [
+    "excludes": [
+    "Library/Caches",
+    "*.xcarchive",
+    "*.ipa"
+    "../config/",
+    "../embody_out/",
+    "../slang/",
+    "../salt/",
+    "../tests/",
+    "../tts_engines/",
+    "~/Documents",
+    "~/Desktop",
+    "~/Downloads"
+  ],
+  "excludes": [
+    "Library/Caches",
+    "*.xcarchive",
+    "*.ipa"
+  ],
+  "backup_base": "~/VaultBackups"
+}

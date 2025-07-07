@@ -1,0 +1,33 @@
+{
+  "eval_batch_size": 8,
+  "num_loader_workers": 2,
+  "num_eval_loader_workers": 1,
+  "run_eval": true,
+  "test_delay_epochs": 5,
+  "epochs": 1000,
+  "lr_scheduler": "ExponentialLR",
+  "lr": 0.0001,
+  "lr_scheduler_params": {
+    "gamma": 0.995
+  },
+  "model": "your_tts",
+  "losses": [
+    "Tacotron2Loss"
+  ],
+  "model_params": {
+    "use_d_vector_file": false,
+    "use_speaker_embedding": true,
+    "use_gst": true,
+    "language_embedding": true,
+    "model_lang": "ar"
+  },
+  "trainer": {
+    "gpus": [0],
+    "precision": 32,
+    "log_interval": 10,
+    "accumulate_grad_batches": 1,
+    "val_check_interval": 0.25,
+    "check_val_every_n_epoch": 10,
+    "num_sanity_val_steps": 5
+  }
+}

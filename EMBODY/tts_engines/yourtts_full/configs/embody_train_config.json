@@ -1,0 +1,34 @@
+{
+  "model": "yourtts",
+  "formatter": "YourTTSFormatter",
+  "run_name": "embody_yourtts",
+  "output_path": "output/",
+
+  "dataset_config": {
+    "meta_file_train": "filelists/train_filelist.txt",
+    "meta_file_val": "filelists/val_filelist.txt",
+    "path": "tests/data/ljspeech/wavs"
+  },
+
+  "datasets": [
+    {
+      "name": "embody_dataset",
+      "path": "tests/data/ljspeech/wavs"
+    }
+  ],
+
+  "epochs": 1000,
+  "batch_size": 16,
+  "eval_batch_size": 8,
+  "r": 1,
+
+  "use_phonemes": true,
+  "phoneme_language": "en-us",
+  "text_cleaner": "multilingual_cleaners",
+  "language_ids_file": "languages/ids.json",
+  "speaker_ids_file": "speakers/ids.json",
+
+  "compute_input_seq_cache": false,
+  "eval_split_size": 0.01,
+  "eval_split_max_size": 100
+}

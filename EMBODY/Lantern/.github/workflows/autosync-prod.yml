@@ -1,0 +1,25 @@
+name: AutoSync to Production
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  sync-prod:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Force sync main to production
+        run: |
+          git checkout -B production
+          git push origin production --force

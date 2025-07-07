@@ -1,0 +1,27 @@
+name: AutoSync to Staging
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  create-pull-request:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v3
+
+      - name: Create pull request from main to staging
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: staging
+          branch: autosync/main-to-staging
+          title: "🔁 AutoSync: main ➜ staging"
+          body: |
+            Auto-generated PR to sync changes from `main` into `staging`.
+            Please review and merge if appropriate.
+          delete-branch: true
+          merge: true
+          merge-method: squash

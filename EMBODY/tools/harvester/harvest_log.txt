@@ -1,0 +1,4 @@
+[🚜 HARVESTER BATCH START]
+[🎬 MATCH] ./harvest_batch/clips/drake_clip.mp4 + ./harvest_batch/clips/drake_clip.srt
+[🎭 Injecting emotions...]
+[✅ DONE] All clips processed.

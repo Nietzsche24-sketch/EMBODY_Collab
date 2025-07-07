@@ -1,0 +1,48 @@
+{
+  "output_path": "tts_engines/yourtts_full/outputs/",
+  "run_name": "arabic_run_1",
+  "model": "vits",
+  "batch_size": 32,
+  "eval_batch_size": 16,
+  "epochs": 1000,
+  "save_checkpoints": true,
+  "save_n_checkpoints": 5,
+  "save_step": 500,
+  "run_eval": true,
+  "mixed_precision": false,
+  "lr": 0.001,
+  "optimizer": "AdamW",
+  "use_phonemes": false,
+  "text_cleaner": null,
+  "characters": {
+    "characters_class": "TTS.tts.utils.text.characters.Graphemes",
+    "pad": "<PAD>",
+    "eos": "<EOS>",
+    "bos": "<BOS>",
+    "blank": "<BLNK>",
+    "characters": "ابتثجحخدذرزسشصضطظعغفقكلمنهويءئاأإآىةى1234567890",
+    "punctuations": "!'(),-.:;؟ ",
+    "is_unique": false,
+    "is_sorted": true
+  },
+  "add_blank": true,
+  "audio": {
+    "fft_size": 1024,
+    "sample_rate": 22050,
+    "win_length": 1024,
+    "hop_length": 256,
+    "num_mels": 80,
+    "mel_fmin": 0,
+    "mel_fmax": 8000
+  },
+  "datasets": [
+    {
+      "formatter": "yourtts",
+      "dataset_name": "arabic_emotion",
+      "path": "tts_engines/yourtts_full/wavs",
+      "meta_file_train": "tts_engines/yourtts_full/train_filelist.txt",
+      "language": "ar"
+    }
+  ],
+  "train_filelist": "harvester/train_filelist.txt"
+}

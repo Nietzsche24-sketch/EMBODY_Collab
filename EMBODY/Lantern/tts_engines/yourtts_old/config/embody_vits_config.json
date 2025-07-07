@@ -1,0 +1,23 @@
+{
+  "output_path": "outputs/",
+  "model_name": "vits",
+  "generator_model": "vits",
+  "use_speaker_embedding": false,
+  "audio": {
+    "sample_rate": 22050,
+    "win_length": 1024,
+    "hop_length": 256,
+    "fft_size": 1024,
+    "num_mels": 80,
+    "mel_fmin": 0,
+    "mel_fmax": 8000
+  },
+  "datasets": [
+    {
+      "train_filelist": "filelists/train_filelist.txt",
+      "eval_filelist": "filelists/val_filelist.txt",
+      "formatter": "your_tts",
+      "path": "wavs"      
+    }
+  ]
+}

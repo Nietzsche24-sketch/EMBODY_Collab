@@ -1,0 +1,30 @@
+wavs/001_ana-ghadban.wav|أنا غضبان|ar
+wavs/002_ana-za3laan.wav|أنا زعلان|ar
+wavs/003_ana-mabsuut.wav|أنا مبسوط|ar
+wavs/004_ana-khaayif.wav|أنا خايف|ar
+wavs/005_ana-mitfaagi2.wav|أنا متفاجئ|ar
+wavs/006_ana-bahebak.wav|أنا بحبك|ar
+wavs/007_ana-ba3ayet.wav|أنا بعيط|ar
+wavs/008_ana-mitdaya2.wav|أنا متضايق|ar
+wavs/009_ana-ayyaan.wav|أنا عيان|ar
+wavs/010_ana-masduu2.wav|أنا مصدوم|ar
+wavs/011_ana-rayi2.wav|أنا رايق|ar
+wavs/012_ana-iftakartak-moot.wav|أنا افتكرتك موت|ar
+wavs/013_ana-fakrak.wav|أنا فاكرَك|ar
+wavs/014_ana-zaha2aan.wav|أنا زهقان|ar
+wavs/015_ana-ghayraan.wav|أنا غيران|ar
+wavs/016_ana-hazeen.wav|أنا حزين|ar
+wavs/017_ana-metwattar.wav|أنا متوتر|ar
+wavs/018_ana-daye3.wav|أنا ضايع|ar
+wavs/019_ana-faar7aan.wav|أنا فرحان|ar
+wavs/020_ana-maznoon.wav|أنا مظنون|ar
+wavs/021_ana-mabsuuT-giddan.wav|أنا مبسوط جدًا|ar
+wavs/022_ana-sakta.wav|أنا سكتة|ar
+wavs/023_ana-waheshny.wav|أنا واحشني|ar
+wavs/024_ana-betbakkar.wav|أنا بتبكّر|ar
+wavs/025_ana-bastannaak.wav|أنا بستناك|ar
+wavs/026_ana-batkallim.wav|أنا بتكلم|ar
+wavs/027_ana-ta3baan.wav|أنا تعبان|ar
+wavs/028_ana-mertabik.wav|أنا مرتبك|ar
+wavs/029_ana-mistaghrab.wav|أنا مستغرب|ar
+wavs/030_ana-bethak.wav|أنا بضحك|ar
